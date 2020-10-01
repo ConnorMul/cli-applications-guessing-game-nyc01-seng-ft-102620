@@ -5,5 +5,4 @@ def run_guessing_game
   user_input = gets.chomp
   user_input == random_num ? "You guessed the correct number!" : "Sorry! The computer guessed #{random_num}."
   "Goodbye" if user_input == "exit"
-  end
 end 
